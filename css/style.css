@@ -1,1 +1,37 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+/* Styles for navbar section */
+.main-header{
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  margin-left: -100px;
+  border-radius: 100px;
+  font-weight: 900;
+  color: purple;
+}
+.navbar-nav .nav-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: large;
+  font-weight: 600;
+}
+.navbar-nav .nav-item:hover {
+  background-color: #e2e6ea; 
+  border-radius: 5px;
+}
+.navbar-nav .nav-item:hover .nav-link {
+  color: blueviolet; 
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: purple;
+  font-weight: bold;
+}
 
