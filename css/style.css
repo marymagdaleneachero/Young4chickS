@@ -192,3 +192,33 @@ blockquote {
   color: #555;
 }
 
+/* CTA section */
+.cta-section {
+  padding: 3rem 2vw;
+  display: flex;
+  justify-content: center;
+}
+.cta-box {
+  background: linear-gradient(90deg, #e64b9d, #6f56e9);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.cta-box h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cta-box p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.cta-box .btn {
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+}
+
