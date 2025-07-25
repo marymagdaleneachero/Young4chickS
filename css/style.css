@@ -35,3 +35,32 @@ body {
   font-weight: bold;
 }
 
+/* First section */
+.section{
+    max-width:100%;
+    margin-bottom: 20px;
+    padding: 0 2vw; /* Adjust as needed */
+    margin-top: 150px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.hero-banner{
+    background: linear-gradient(rgba(37, 2, 46, 0.65), rgba(255, 0, 102, 0.65)),
+    url(/assets/background.jpg) center/cover no-repeat;
+    border-radius: 10px;
+    padding: 170px 50px;
+    text-align: center;
+    color:white;
+}
+.hero-banner h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.hero-banner p {
+  font-size: 1rem;
+  margin: 15px 0 30px;
+}
+.hero-banner .btn {
+  margin: 10px;
+}
+
