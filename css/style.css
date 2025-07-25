@@ -34,6 +34,7 @@ body {
 .navbar-nav .nav-item.active .nav-link {
   color: purple;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 /* First section */
@@ -269,6 +270,151 @@ blockquote {
     margin-bottom: 1.5rem;
   }
 }
+
+/* About Page styles */
+/* Left section */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    .main-container {
+            max-width: 95%
+            padding: 0 1rem;
+            margin: 150px auto;
+            
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, rgba(37, 2, 46, 0.9), rgba(255, 0, 102, 0.8)),
+                        url('assets/about-hero.jpg') center center/cover no-repeat;
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+            position: relative;
+            margin-bottom: 3rem;
+        }
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(37, 2, 46, 0.3), rgba(255, 0, 102, 0.2));
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-section .lead {
+            font-size: 1.4rem;
+            opacity: 0.95;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        .content-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(37, 2, 46, 0.1);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(37, 2, 46, 0.15);
+        }
+        .card-header-purple {
+            background: linear-gradient(135deg, rgba(37, 2, 46, 0.9), rgba(255, 0, 102, 0.8));
+            color: white;
+            padding: 1.5rem;
+            border: none;
+        }
+
+        .card-header-purple h2 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .title {
+            color: rgba(37, 2, 46, 0.9);
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        .title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(90deg, rgba(37, 2, 46, 0.8), rgba(255, 0, 102, 0.8));
+            border-radius: 2px;
+        }
+        .list-group-item {
+            border: none;
+            border-left: 4px solid rgba(255, 0, 102, 0.3);
+            margin-bottom: 0.5rem;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #f8f9fa, #ffffff);
+            transition: all 0.3s ease;
+        }
+
+        .list-group-item:hover {
+            border-left-color: rgba(255, 0, 102, 0.8);
+            background: linear-gradient(135deg, #ffffff, #f8f9fa);
+            transform: translateX(5px);
+        }
+
+        .process-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .process-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(37, 2, 46, 0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .process-card:hover {
+            border-color: rgba(255, 0, 102, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(37, 2, 46, 0.15);
+        }
+
+        .process-card h5 {
+            color: rgba(37, 2, 46, 0.9);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .process-card .card-text {
+            color: rgba(37, 2, 46, 0.7);
+        }
 
 
 
