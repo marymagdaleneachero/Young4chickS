@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   font-family: Arial, sans-serif;
 }
+
 /* Styles for navbar section */
 .main-header{
     width: 100%;
@@ -62,5 +63,87 @@ body {
 }
 .hero-banner .btn {
   margin: 10px;
+}
+
+/* Why choose section */
+.section h2 {
+  color: purple;
+  font-weight: bold;
+}
+.why-banner {
+  width: 100%;
+  padding: 4rem 2vw;
+  box-sizing: border-box;
+  background-color: #f8f8f8; 
+  border-radius: 10px;
+  text-align: center;
+}
+.features{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+}
+.feature-card{
+    flex: 1;
+    min-width: 280px;
+    max-width: 450px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+}
+.feature-card.highlight {
+  border-color: #ddccf2;
+}
+.feature-icon {
+  background-color: #fde6f2;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.feature-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #777;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stat-value {
+  color: rgb(134, 31, 134);
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .section,
+  .why-banner {
+    padding: 0 4vw;
+  }
+
+  .features {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
