@@ -222,3 +222,53 @@ blockquote {
   padding: 0.5rem 1.5rem;
 }
 
+/* Footer base */
+.footer-section {
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Footer headings */
+.footer-section h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: purple; /* Bootstrap green */
+  margin-bottom: 1rem;
+}
+
+/* Footer text */
+.footer-section p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+.footer-section a {
+  color: purple;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.footer-section .small {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+.footer-section a.text-muted:hover {
+  color: #0d6efd;
+}
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-section .row > div {
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+
