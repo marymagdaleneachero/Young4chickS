@@ -561,3 +561,20 @@ blockquote {
 .small {
     color: purple;
 }
+/* Admin dashboard styles */
+.sidebar {
+      height: 100vh;
+      background: linear-gradient(135deg, rgba(37, 2, 46, 1), rgba(255, 0, 102, 0.9));
+      color: white;
+    }
+    .sidebar a {
+      color: #ddd;
+      text-decoration: none;
+      display: block;
+      padding: 10px 15px;
+      border-radius: 4px;
+    }
+    .sidebar a:hover {
+      background-color:white;
+      color: black;
+    }
