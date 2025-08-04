@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young4ChickS - Admin Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navbar section-->
+    <header class="main-header">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand">
+            <img
+              src="assets/logo.png"
+              width="50"
+              height="50"
+              alt="logo"
+              class="img-thumbnail" />
+            Young4ChickS
+          </a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="dashboard-container">
+      <nav class="sidebar p-3">
+        <h4 class="text-white mb-4">Welcome, <span id="farmerName">Farmer!</span></h4>
+        <a href="farmer.html"><i class="bi bi-speedometer2 me-2"></i>
+          Request chicks</a>
+        <a href="track-request.html"><i class="bi bi-boxes me-2"></i> Track request</a>
+        <hr class="text-light" />
+        <a href="#"><i class="bi bi-box-arrow-right me-2"></i> Logout</a>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <section id="track-request" class="dashboard-content active">
+            
+<div class="container">
+  <div class="card status-card">
+    <div class="card-header bg-primary text-white text-center card-header-track">
+      <h4>My Chick Request</h4>
+    </div>
+    <div class="card-body">
+      <p><strong>Farmer Name:</strong> John Doe</p>
+      <p><strong>Type of Farmer:</strong> Starter</p>
+      <p><strong>Requested Chicks:</strong> Broiler (Exotic)</p>
+      <p><strong>Quantity:</strong> 100</p>
+      <p><strong>Request Date:</strong> July 10, 2025</p>
+      <p><strong>Status:</strong> <span id="request-status" class="badge bg-success">Approved</span></p>
+    </div>
+  </div>
+</div>
+
+          
+          </section>
+
+        </div>
+
+        <!-- Footer section -->
+        <!-- <footer
+        class="footer-section mt-5 pt-5 pb-3 text-center text-md-left bg-light footer">
+        <div class="container">
+          <div class="row text-start">
+            <div class="col-md-4 mb-4">
+              <h5 class="fw-bold">About Young4ChickS</h5>
+              <p>
+                Young4ChickS is an initiative focused on empowering youth
+                through
+                sustainable poultry farming. We provide chicks, training, and
+                support to kickstart urban brooding businesses.
+              </p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <h5 class="fw-bold">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="about.html"
+                    class="text-decoration-none text-dark">About Us</a></li>
+                <li><a href="register.html"
+                    class="text-decoration-none text-dark">Register</a></li>
+                <li><a href="login.html"
+                    class="text-decoration-none text-dark">Login</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <h5 class="fw-bold">Contact</h5>
+              <p class="mb-1">📍 Urban Youth Farming Hub, Kampala</p>
+              <p class="mb-1">📞 +256 760625981</p>
+              <p class="mb-1">✉️ info@young4chicks.org</p>
+            </div>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-12 text-center small text-muted">
+              &copy; 2025 Young4ChickS. All rights reserved.
+              <br />
+              <a href="#" class="text-decoration-none text-muted">Privacy
+                Policy</a> |
+              <a href="#" class="text-decoration-none text-muted">Terms of
+                Service</a>
+            </div>
+          </div>
+        </div>
+      </footer> -->
+
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+          crossorigin="anonymous"></script>
+
+      </body>
+    </html>
